@@ -63,6 +63,64 @@ $about_text="$rs[about_text]";
 
     <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        :root {
+            --inab-primary: #f37122;
+            --inab-secondary: #1d69e5;
+            --inab-tertiary: #003366;
+        }
+
+        .color-primary,
+        .text-primary,
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active,
+        .single-counter span {
+            color: var(--inab-primary) !important;
+        }
+
+        .color-1,
+        .single-promo.color-1,
+        .contact-info.color-1,
+        .single-service .service-icon {
+            background-color: var(--inab-primary) !important;
+        }
+
+        .color-2,
+        .single-promo.color-2,
+        .contact-info.color-2 {
+            background-color: var(--inab-secondary) !important;
+        }
+
+        .color-3,
+        .single-promo.color-3,
+        .contact-info.color-3,
+        .bg-grey,
+        .footer-bottom {
+            background-color: var(--inab-tertiary) !important;
+        }
+
+        .btn,
+        .btn-bordered-white:hover,
+        .btn-bordered.active {
+            background-color: var(--inab-secondary) !important;
+            border-color: var(--inab-secondary) !important;
+        }
+
+        .btn:hover {
+            background-color: var(--inab-primary) !important;
+            border-color: var(--inab-primary) !important;
+        }
+
+        a:hover,
+        .icon-text > a:hover,
+        .breadcrumb-item a:hover {
+            color: var(--inab-secondary) !important;
+        }
+
+        .single-service {
+            border-color: var(--inab-secondary) !important;
+        }
+    </style>
 
 </head>
 
