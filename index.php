@@ -127,7 +127,7 @@ while($rod = mysqli_fetch_array($r1))
 print "
 <div class='col-12 col-md-6 col-lg-4'>
 <!-- Single Service -->
-<div class='single-service p-4'  style='border: solid 1px #788282;'>
+<div class='single-service p-4'  style='border: solid 1px #1d69e5;'>
     <h3 class='my-3'>$serviceg</h3>
     <p>$service_desc</p>
     <a class='service-btn mt-3' href='servicedetail.php?id=$id'>Learn More</a>
